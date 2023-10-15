@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap");
+
 :root {
     --bg-main: #f8f9fa;
 }
@@ -25,4 +27,7 @@
         margin: 0 auto;
         max-width: 80% !important;
     }
+}
+.title {
+    font-family: "Black Han Sans";
 }
