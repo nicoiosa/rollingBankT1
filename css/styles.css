@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+#navTitle{
+    font-family: 'Black Han Sans'
+}
 .carousel-item img {
     max-height: 80vh;
     width: 100%;
