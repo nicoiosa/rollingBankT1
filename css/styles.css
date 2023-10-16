@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+
+.tuseguridad{
+    background-color: #0d6efd;
+    padding: 5rem;
+  text-align: center;
+  font-family:'Black Han Sans', sans-serif;
+  color: white;
+font-size: 40px;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#imagenmundo{
+width: 600px !important;
+height: 300px !important;
+
+}
+
+.columnaimg{
+    flex-direction: column;
+    display: flex;
+    flex: 1 1;
+    width: 80%;
+    margin:100px auto;
+}
+
