@@ -28,6 +28,9 @@
 .main {
     background-color: var(--bg-main);
 }
+#footerH{
+  font-family: "Black Han Sans";
+  }
 @media screen and (min-width: 770px) {
     .nosotros {
         margin: 0 auto;
@@ -36,4 +39,3 @@
 }
 .title {
     font-family: "Black Han Sans";
-}
