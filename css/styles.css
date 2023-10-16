@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+#navTitle{
+    font-family: 'Black Han Sans'
+}
 
 .tuseguridad{
     background-color: #0d6efd;
-    padding: 5rem;
+    padding: 4rem;
   text-align: center;
   font-family:'Black Han Sans', sans-serif;
   color: white;
@@ -16,8 +19,8 @@ font-size: 40px;
 
 #imagenmundo{
 width: 600px !important;
-height: 300px !important;
-
+height: 400px !important;
+padding: 35px;
 }
 
 .columnaimg{
@@ -26,5 +29,24 @@ height: 300px !important;
     flex: 1 1;
     width: 80%;
     margin:100px auto;
+   
 }
 
+@media screen and (max-width : 767px){
+    .columnaimg{
+       width: 100%;
+    }
+    
+
+   }
+   @media screen and (max-width: 1023px) {
+   .columnaimg{
+    width: 100%;}
+ }
+ 
+ @media screen and (min-width: 1024px) {
+    .columnaimg{
+        width: 100%;}
+ }
+
+ 
