@@ -1,17 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
-#navTitle{
+
+#navTitle {
     font-family: 'Black Han Sans'
 }
 
-body{
+#font {
+
+    font-family: 'Black Han Sans';
+}
+
+body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
-main{
+
+main {
     flex-grow: 1;
 }
-.tamañoIcono{
-font-size: 25px;
 
+.tamañoIcono {
+    font-size: 32px;
+
+}
+
+.tamañoTabla {
+    height: 88px;
+
+}
+
+.tamañoBoton {
+
+    width: 10px;
+}
+
+#colorCuenta {
+    color: #0d6efd;
+
+}
+
+#colorMantenimiento {
+    color: #ffc107;
+
+}
+
+#colorTransferencias {
+    color: #dc3545;
+
+}
+
+#colorPago {
+    color: #198754;
+}
+
+#colorDebito {
+
+    color: #0dcaf0;
 }
